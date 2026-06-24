@@ -1,18 +1,6 @@
 """
 export_model.py
----------------
-Run this script ONCE after training in the notebook to save the model
-in the format expected by the ai-service.
 
-Usage (from the project root or wherever the notebook was run):
-    python export_model.py
-
-It will write:
-    ai-service/models/denoiser.keras   ← primary (Keras v3 format)
-    ai-service/models/denoiser.h5      ← legacy fallback
-
-Requirements:
-    pip install tensorflow keras opencv-python numpy scikit-learn
 """
 
 import os

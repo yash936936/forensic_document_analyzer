@@ -1,0 +1,28 @@
+# ai-service/requirements.txt
+# All versions pinned. Updated for v3.0.0.
+
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+pydantic-settings==2.2.1
+
+# TensorFlow / Keras — denoising model
+tensorflow==2.16.1
+
+# Image processing
+Pillow==10.2.0
+numpy==1.26.4
+opencv-python-headless==4.9.0.80
+
+# OCR
+pytesseract==0.3.10
+
+# PDF → image conversion (for PDF OCR support)
+pdf2image==1.17.0
+
+# HTTP client for Gemini + Claude summarization APIs
+httpx==0.27.0
+
+# Env
+python-dotenv==1.0.1
